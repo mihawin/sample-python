@@ -1,6 +1,8 @@
 import os
 import http.server
 import socketserver
+from bs4 import BeautifulSoup  # для парсинга старниц
+from requests import get
 
 from http import HTTPStatus
 
